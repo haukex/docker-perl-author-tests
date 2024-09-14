@@ -5,5 +5,7 @@ requires 'Test::Pod', '>= 1.52';
 requires 'Test::DistManifest', '>= 1.014';
 requires 'Capture::Tiny', '>= 0.48';
 # for coverage:
-requires 'Devel::Cover', '>= 1.40';
+requires 'Devel::Cover', '>= 1.44';
 requires 'JSON::MaybeXS', '>= 1.004005';
+# other utilities:
+requires 'Data::Dump', '>= 1.25';
